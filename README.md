@@ -1,5 +1,7 @@
 # Carplay Screen Mirror for Euro Truck Simulator 2
 
+![Carplay Screen Mirror](preview.jpg)
+
 🇹🇷 **TÜRKÇE**
 Bu eklenti, ETS 2 araçlarına herhangi bir masaüstü uygulamasını yansıtmanızı sağlayan modun çekirdek (DLL) dosyasıdır.
 
