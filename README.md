@@ -2,7 +2,7 @@
 
 ![Carplay Screen Mirror](preview.jpg)
 
-🇹🇷 **TÜRKÇE**
+
 Bu eklenti, ETS 2 araçlarına herhangi bir masaüstü uygulamasını yansıtmanızı sağlayan modun çekirdek (DLL) dosyasıdır.
 
 ⚠️ **ÖNEMLİ BİLGİ:**
@@ -18,7 +18,7 @@ Modun tamamen çalışabilmesi için **ÖNCE** Steam Atölyesi'nden moda abone o
 
 ---
 
-🇬🇧 **ENGLISH**
+
 This is the core plugin (DLL) file required for the Carplay Screen Mirror mod in ETS 2. This mod allows you to project any desktop application directly onto your truck's digital screens.
 
 ⚠️ **IMPORTANT REQUIREMENT:**
