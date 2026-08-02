@@ -1,0 +1,11 @@
+Carplay Screen Mirror - Kurulum Rehberi
+
+KURULUM ADIMLARI:
+1. Bu ZIP dosyasinin icinden cikan 'CarplayScreenMirror.dll' dosyasini kopyalayin.
+2. Bilgisayarinizda oyunun kurulu oldugu asagidaki klasore gidin:
+   Steam/steamapps/common/Euro Truck Simulator 2/bin/win_x64/plugins/
+3. (Eger 'plugins' adinda bir klasor yoksa, sag tiklayip Yeni Klasor diyerek adini plugins yapin).
+4. Kopyaladiginiz .dll dosyasini bu klasorun icine yapistirin.
+5. Steam'den modunuza abone oldugunuza emin olun ve oyuna girin.
+
+Iyi oyunlar!
