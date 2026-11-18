@@ -3,6 +3,9 @@ src/x64/
 src/CarplayS.*/
 src/Include/
 src/Lib/
+dist/
+mod/
+build_mod.py
 *.obj
 *.pdb
 *.ilk
