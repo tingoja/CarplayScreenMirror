@@ -1,0 +1,28 @@
+========================================================================
+🚗 Carplay Screen Mirror v1.4.0 - Kurulum ve Kullanım Rehberi
+========================================================================
+
+Bu klasör (`dist/`), modunuzun ETS2 1.62+ güncellemesi ve yüksek donanımlı
+sistemler için tamamen yenilenmiş v1.4.0 yayın dosyalarını içerir:
+
+1. CarplayScreenMirror.dll:
+   - ETS2 1.62+ tam uyumluluk (GPS, Gösterge, Özel Ayna yamaları ve önbellek yenileme).
+   - Çok çekirdekli işlemciler (Ryzen / i7 / i9) için Spinlock koruması.
+   - ReShade / Steam Overlay / NVIDIA Overlay `d3d11.dll` başlangıç çökmesi düzeltmesi.
+   - Yüksek FPS (144Hz/240Hz) sistemler için menü kapalıyken sıfır GPU/RTV yükü.
+   - Sadeleştirilmiş menü, Zoom (1.0x-5.0x), X/Y Konum ve Fit/Fill/Stretch modları.
+
+2. CarplayScreenMirror.scs:
+   - ETS2 Belgelerim/mod klasörü için hazır SCS mod paketi.
+
+------------------------------------------------------------------------
+🛠️ KURULUM ADIMLARI:
+------------------------------------------------------------------------
+1. `CarplayScreenMirror.dll` dosyasını kopyalayın ve şu klasöre yapıştırın:
+   C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\
+
+2. Steam Atölye moduna abone olun veya `CarplayScreenMirror.scs` dosyasını
+   `Belgelerim\Euro Truck Simulator 2\mod\` klasörüne atıp Mod Yöneticisi'nde etkinleştirin.
+
+3. Oyuna girin ve klavyeden [ CTRL + F8 ] tuşlarına basarak menüyü açın!
+========================================================================
