@@ -1,27 +1,30 @@
-# GitHub v1.4.0 Release Notes
+## 🚗 Carplay Screen Mirror v1.4.0
 
-### Tag Name: `v1.4.0`
-### Title: `CarplayScreenMirror Plugin v1.4.0 - ETS2 1.62+ Fix & High-End PC Stability Update`
+### 🇹🇷 Yenilikler ve Düzeltmeler
+- **ETS2 1.62+ Son Sürüm Uyumluluğu:** Oyunun son güncellemesiyle birlikte çalışmayan GPS, Gösterge Paneli ve Ayna ekranı yansıtma sorunu tamamen düzeltildi.
+- **Çökme ve Performans İyileştirmeleri:** Bazı yüksek donanımlı sistemlerde yaşanan oyun açılış çökmeleri ve FPS düşüşleri giderildi.
+- **Yenilenmiş Sade Menü:** Oyun içi menü (**CTRL + F8**) sadeleştirildi; ekran aktifken başka bir pencereye geçtiğinizde artık oyunu yeniden yüklemeye gerek kalmadan anında geçiş yapar.
+- **Görüntü Ayarları:** Yakınlaştırma (Zoom), kaydırma ve ekran sığdırma (Stretch / Fit / Fill) seçenekleri.
 
----
-
-### 🛠️ ETS2 1.62+ Compatibility & Crash Fixes (Güncelleme & Çökme Düzeltmeleri)
-- **ETS2 1.62+ Signature & Texture Cache Fix:** Updated internal byte patterns for Custom Mirrors (`je rel8` short-jump optimization in 1.62+), GPS, and Dashboard screens, and added `resource_manager` LRU cache invalidation + `mem_tobj_ctor` hooking so textures replace reliably on every reload.
-- **Multi-Core CPU Spinlock Synchronization:** Fixed a race condition in `memserver_texture_queue_processor` by acquiring the engine's internal spinlock (`memserver + 0x190`), preventing random `ACCESS_VIOLATION` crashes on high-core-count CPUs (Ryzen 7/9, Intel i7/i9).
-- **D3D11 Startup Crash Fix (`d3d11.dll`):** Replaced `GetForegroundWindow()` dummy swapchain initialization with an isolated hidden window + WARP fallback, resolving startup crashes with ReShade, Steam Overlay, and NVIDIA App/Overlay.
-- **Zero Render-Pipeline Overhead When Menu is Closed:** ImGui rendering and `OMSetRenderTargets` state binding now execute **only** when the `CTRL + F8` menu is open, eliminating micro-stutter and HDR/sRGB flicker on high-refresh-rate (144Hz/240Hz) monitors.
-- **Multi-GPU / Optimus & Minimized Window Support:** Added automatic hardware adapter fallback, automatic background restore for minimized windows, and fallback capture support.
-
-### ✨ Features Included
-- **Clean, Simplified UI:** Streamlined controls with automatic background process filtering and instant live window switching.
-- **Zoom & Pan Viewport Controls:** `1.0x - 5.0x` Zoom + `X` / `Y` Position sliders.
-- **Screen Fit Modes:** `Stretch (Full)`, `Fit (Keep Aspect)`, `Fill (Crop)`, `Left Half`, `Right Half`.
-- **Automatic Update Checker:** Background GitHub release check with timeout protection.
+### 🛠️ Kurulum (Türkçe)
+1. Aşağıdaki **Assets** bölümünden `CarplayScreenMirror.dll` (veya `CarplayScreenMirror_v1.4.0.zip`) dosyasını indirin.
+2. `CarplayScreenMirror.dll` dosyasını oyunun kurulu olduğu şu klasöre atın:
+   `C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\`
+   *(Eğer `plugins` klasörü yoksa kendiniz oluşturun.)*
+3. [Steam Atölyesi](https://steamcommunity.com/sharedfiles/filedetails/?id=3773481550) üzerinden moda abone olun (veya `.scs` dosyasını `Belgelerim\Euro Truck Simulator 2\mod` klasörüne atın) ve Mod Yöneticisi'nde etkinleştirin.
+4. Oyuna girin ve **CTRL + F8** tuşlarına basarak menüyü açın!
 
 ---
 
-### 📦 Installation Guide / Kurulum
-1. Download `CarplayScreenMirror.dll` from the release assets below.
+### 🇬🇧 What's New in v1.4.0
+- **ETS2 1.62+ Compatibility:** Fixed GPS, Dashboard, and Mirror screens not displaying on the latest ETS2 1.62+ game update.
+- **Stability & Performance Fixes:** Resolved game crashes and FPS drops on high-end PCs.
+- **Simplified In-Game Menu:** Cleaned up the **CTRL + F8** menu and added instant live switching between windows without reloading.
+- **Viewport Controls:** Zoom (`1.0x - 5.0x`), Position (`X / Y`), and Screen Fit (`Stretch`, `Fit`, `Fill`, `Left/Right Half`) modes.
+
+### 📦 Installation (English)
+1. Download `CarplayScreenMirror.dll` (or `CarplayScreenMirror_v1.4.0.zip`) from the **Assets** section below.
 2. Copy `CarplayScreenMirror.dll` into your game's plugins folder:
    `C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\`
-3. Launch Euro Truck Simulator 2 and press **CTRL + F8** in-game!
+3. Subscribe to the mod on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3773481550) (or copy `CarplayScreenMirror.scs` to `Documents\Euro Truck Simulator 2\mod`) and enable it in Mod Manager.
+4. Launch the game and press **CTRL + F8**!

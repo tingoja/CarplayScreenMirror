@@ -2,27 +2,43 @@
 🚗 Carplay Screen Mirror v1.4.0 - Kurulum ve Kullanım Rehberi
 ========================================================================
 
-Bu klasör (`dist/`), modunuzun ETS2 1.62+ güncellemesi ve yüksek donanımlı
-sistemler için tamamen yenilenmiş v1.4.0 yayın dosyalarını içerir:
-
-1. CarplayScreenMirror.dll:
-   - ETS2 1.62+ tam uyumluluk (GPS, Gösterge, Özel Ayna yamaları ve önbellek yenileme).
-   - Çok çekirdekli işlemciler (Ryzen / i7 / i9) için Spinlock koruması.
-   - ReShade / Steam Overlay / NVIDIA Overlay `d3d11.dll` başlangıç çökmesi düzeltmesi.
-   - Yüksek FPS (144Hz/240Hz) sistemler için menü kapalıyken sıfır GPU/RTV yükü.
-   - Sadeleştirilmiş menü, Zoom (1.0x-5.0x), X/Y Konum ve Fit/Fill/Stretch modları.
-
-2. CarplayScreenMirror.scs:
-   - ETS2 Belgelerim/mod klasörü için hazır SCS mod paketi.
-
+🇹🇷 TÜRKÇE KURULUM REHBERİ:
 ------------------------------------------------------------------------
-🛠️ KURULUM ADIMLARI:
-------------------------------------------------------------------------
-1. `CarplayScreenMirror.dll` dosyasını kopyalayın ve şu klasöre yapıştırın:
+1. İndirdiğiniz "CarplayScreenMirror.dll" dosyasını kopyalayın.
+2. Bilgisayarınızda Euro Truck Simulator 2'nin kurulu olduğu şu klasöre gidin:
    C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\
+   (Eğer "plugins" adında bir klasör yoksa, "win_x64" klasörünün içinde sağ tıklayıp
+   Yeni Klasör oluşturun ve adını "plugins" yapın.)
+3. Kopyaladığınız "CarplayScreenMirror.dll" dosyasını "plugins" klasörünün içine yapıştırın.
+4. Steam Atölyesi'nden "Carplay Screen Sharing" moduna abone olun (veya ZIP içindeki
+   "CarplayScreenMirror.scs" dosyasını "Belgelerim\Euro Truck Simulator 2\mod" klasörüne atın)
+   ve oyun içi Mod Yöneticisi'nde modu etkinleştirin.
 
-2. Steam Atölye moduna abone olun veya `CarplayScreenMirror.scs` dosyasını
-   `Belgelerim\Euro Truck Simulator 2\mod\` klasörüne atıp Mod Yöneticisi'nde etkinleştirin.
+🎮 OYUN İÇİ KULLANIM:
+- Tırınızı sürerken klavyeden [ CTRL + F8 ] tuşlarına basarak menüyü açın.
+- "Add GPS Screen", "Add Dashboard Screen" veya "Add Mirror Screen" butonuna tıklayın.
+- "Window Source" listesinden ekrana yansıtmak istediğiniz programı (Tarayıcı, YouTube,
+  Spotify, Discord vb.) seçin.
+- Üstteki "Apply Changes" butonuna bir kez basın.
+- Görüntü geldikten sonra "Screen Fit" ile ekran oranını ayarlayabilir veya "Zoom" ile
+  görüntüyü yakınlaştırıp kaydırabilirsiniz.
 
-3. Oyuna girin ve klavyeden [ CTRL + F8 ] tuşlarına basarak menüyü açın!
+
+========================================================================
+🇬🇧 ENGLISH INSTALLATION & USAGE GUIDE:
+========================================================================
+1. Copy the "CarplayScreenMirror.dll" file.
+2. Go to your Euro Truck Simulator 2 installation folder:
+   C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\
+   (If the "plugins" folder does not exist inside "win_x64", create a new folder named "plugins".)
+3. Paste "CarplayScreenMirror.dll" into the "plugins" folder.
+4. Subscribe to the mod on Steam Workshop (or copy "CarplayScreenMirror.scs" into your
+   "Documents\Euro Truck Simulator 2\mod" folder) and activate it in the in-game Mod Manager.
+
+🎮 HOW TO USE IN-GAME:
+- Press [ CTRL + F8 ] on your keyboard while inside your truck to open the menu.
+- Click "Add GPS Screen", "Add Dashboard Screen", or "Add Mirror Screen".
+- Select the application window you want to mirror from the "Window Source" dropdown.
+- Click "Apply Changes" once.
+- You can adjust the aspect ratio using "Screen Fit" or zoom/pan the video at any time!
 ========================================================================

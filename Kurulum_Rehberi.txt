@@ -1,11 +1,25 @@
-Carplay Screen Mirror - Kurulum Rehberi
+========================================================================
+🚗 Carplay Screen Mirror v1.4.0 - Kurulum ve Kullanım Rehberi
+========================================================================
 
-KURULUM ADIMLARI:
-1. Bu ZIP dosyasinin icinden cikan 'CarplayScreenMirror.dll' dosyasini kopyalayin.
-2. Bilgisayarinizda oyunun kurulu oldugu asagidaki klasore gidin:
-   Steam/steamapps/common/Euro Truck Simulator 2/bin/win_x64/plugins/
-3. (Eger 'plugins' adinda bir klasor yoksa, sag tiklayip Yeni Klasor diyerek adini plugins yapin).
-4. Kopyaladiginiz .dll dosyasini bu klasorun icine yapistirin.
-5. Steam'den modunuza abone oldugunuza emin olun ve oyuna girin.
+🇹🇷 TÜRKÇE KURULUM REHBERİ:
+------------------------------------------------------------------------
+1. İndirdiğiniz "CarplayScreenMirror.dll" dosyasını kopyalayın.
+2. Bilgisayarınızda Euro Truck Simulator 2'nin kurulu olduğu şu klasöre gidin:
+   C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\plugins\
+   (Eğer "plugins" adında bir klasör yoksa, "win_x64" klasörünün içinde sağ tıklayıp
+   Yeni Klasör oluşturun ve adını "plugins" yapın.)
+3. Kopyaladığınız "CarplayScreenMirror.dll" dosyasını "plugins" klasörünün içine yapıştırın.
+4. Steam Atölyesi'nden "Carplay Screen Sharing" moduna abone olun (veya ZIP içindeki
+   "CarplayScreenMirror.scs" dosyasını "Belgelerim\Euro Truck Simulator 2\mod" klasörüne atın)
+   ve oyun içi Mod Yöneticisi'nde modu etkinleştirin.
 
-Iyi oyunlar!
+🎮 OYUN İÇİ KULLANIM:
+- Tırınızı sürerken klavyeden [ CTRL + F8 ] tuşlarına basarak menüyü açın.
+- "Add GPS Screen", "Add Dashboard Screen" veya "Add Mirror Screen" butonuna tıklayın.
+- "Window Source" listesinden ekrana yansıtmak istediğiniz programı (Tarayıcı, YouTube,
+  Spotify, Discord vb.) seçin.
+- Üstteki "Apply Changes" butonuna bir kez basın.
+- Görüntü geldikten sonra "Screen Fit" ile ekran oranını ayarlayabilir veya "Zoom" ile
+  görüntüyü yakınlaştırıp kaydırabilirsiniz.
+========================================================================

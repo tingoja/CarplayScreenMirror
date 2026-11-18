@@ -3,10 +3,10 @@ Carplay Screen Mirror - Experience a whole new level of simulation! This mod all
 ==================================================
 ✨ WHAT'S NEW IN v1.4 / NELER YENİ?
 ==================================================
-🛠️ ETS2 1.62+ Update Compatibility: Updated internal Prism3D, resource cache, and mirror memory signatures for the latest ETS2 1.62+ update.
-🚀 High-End PC Stability & Multi-Core Fix: Fixed thread synchronization in texture queue processing and eliminated D3D11 startup & high-FPS overlay crashes (ReShade / Steam Overlay / HDR).
+🛠️ ETS2 1.62+ Update Compatibility: Fixed GPS, Dashboard, and Mirror screens for the latest ETS2 1.62+ update.
+🚀 Stability & Performance Fix: Fixed crashes and FPS drops on high-end PCs.
 ⚡ Clean UI & Instant Window Switching: Simplified the in-game menu and enabled instant live switching between desktop windows without reloading.
-🔍 Zoom & Pan + Aspect Ratio Modes: Full 1.0x-5.0x Zoom, X/Y Position, Stretch, Fit, Fill, and Left/Right Half split modes.
+🔍 Zoom & Aspect Ratio Modes: Full 1.0x-5.0x Zoom, X/Y Position, Stretch, Fit, Fill, and Left/Right Half split modes.
 
 ==================================================
 ⚠️ CRITICAL INSTALLATION STEP (MUST READ)
@@ -28,10 +28,10 @@ How to Install:
 Bu mod sayesinde masaüstünüzdeki herhangi bir programı (Spotify, Discord, YouTube veya Tarayıcı) doğrudan tırınızın GPS, Gösterge Paneli (Dashboard) veya Aynalarına yansıtabilirsiniz!
 
 Neler Yeni (v1.4.0):
-🛠️ ETS2 1.62+ Güncelleme Uyumluluğu: Son ETS2 1.62+ güncellemesi için tüm bellek imzaları ve kaplama önbellek (cache) sistemi güncellendi.
-🚀 Yüksek Sistem (Çok Çekirdekli İşlemci & Yüksek FPS) Çökme Düzeltmeleri: Çok çekirdekli işlemcilerde (Ryzen 7/9, i7/i9) oluşan doku kuyruğu çakışması giderildi; ReShade / Steam Overlay başlangıç çökmeleri ve yüksek FPS takılmaları tamamen sıfırlandı.
-⚡ Sadeleştirilmiş Menü & Anında Pencere Geçişi: Kullanıcı arayüzü sadeleştirildi; aktif ekranda pencere değiştirdiğinizde yeniden yükleme gerekmeden anında yansır.
-🔍 Görüntü Yakınlaştırma & Kaydırma (Zoom & Pan): 1.0x - 5.0x yakınlaştırma, X/Y konum ayarı ve Fit / Fill / Stretch hizalama modları.
+🛠️ ETS2 1.62+ Güncelleme Uyumluluğu: Son oyun güncellemesiyle birlikte ekranların gelmeme sorunu tamamen düzeltildi.
+🚀 Çökme ve Performans Düzeltmeleri: Yüksek sistemlerde oluşan çökmeler ve FPS düşüşleri giderildi.
+⚡ Sadeleştirilmiş Menü & Anında Pencere Geçişi: Oyun içi menü sadeleştirildi; aktif ekranda pencere değiştirdiğinizde yeniden yükleme gerekmeden anında yansır.
+🔍 Görüntü Yakınlaştırma & Kaydırma (Zoom): 1.0x - 5.0x yakınlaştırma, X/Y konum ayarı ve Fit / Fill / Stretch ekran sığdırma modları.
 
 ⚠️ DİKKAT (ZORUNLU KURULUM):
 Steam Atölyesi .dll dosyalarını kabul etmediği için sadece Abone Olmanız yeterli değildir. Modun çalışması için gerekli eklentiyi aşağıdaki linkten indirip bin/win_x64/plugins/ klasörüne atmalısınız!

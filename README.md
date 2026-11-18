@@ -10,10 +10,10 @@ Modun çalışabilmesi için Steam Atölyesi'nden moda abone olmanız (veya `.sc
 👉 **[Steam Atölyesi Sayfasına Gitmek ve Abone Olmak İçin Tıklayın](https://steamcommunity.com/sharedfiles/filedetails/?id=3773481550)**
 
 ## ✨ v1.4.0 Yenilikleri
-- **ETS2 1.62+ Tam Uyumluluk:** Güncel ETS2 1.62+ sürümü için tüm iç bellek imzaları (GPS, Dashboard, Özel Ayna) ve `resource_manager` önbellek yönetimi güncellendi.
-- **Yüksek Sistem & Çok Çekirdekli CPU Çökme Düzeltmeleri:** Çok çekirdekli işlemcilerde (Ryzen 7/9, Intel i7/i9) doku kuyruğu senkronizasyonu eklendi; ReShade / Steam Overlay `d3d11.dll` başlangıç çökmeleri ve 144Hz/240Hz yüksek FPS takılmaları giderildi.
-- **Sadeleştirilmiş Arayüz & Anında Pencere Değişimi:** Karmaşık ayarlar temizlendi; aktif ekranlarda pencere kaynağını değiştirdiğinizde oyunu yeniden yüklemeye gerek kalmadan anında geçiş yapar.
-- **Zoom & Pan + Hizalama Modları:** 1.0x - 5.0x yakınlaştırma, X/Y konum kaydırma ve Stretch / Fit / Fill / Sol-Sağ Yarı modları.
+- **ETS2 1.62+ Tam Uyumluluk:** Son oyun güncellemesiyle birlikte ekranların gelmeme sorunu tamamen düzeltildi.
+- **Çökme ve Performans Düzeltmeleri:** Yüksek sistemlerde yaşanan oyun açılış çökmeleri ve FPS düşüşleri giderildi.
+- **Sadeleştirilmiş Menü & Anında Pencere Geçişi:** Oyun içi menü sadeleştirildi; aktif ekranda pencere değiştirdiğinizde yeniden yüklemeye gerek kalmadan anında geçiş yapar.
+- **Görüntü Yakınlaştırma (Zoom) & Hizalama:** 1.0x - 5.0x yakınlaştırma, X/Y konum kaydırma ve Stretch / Fit / Fill ekran sığdırma modları.
 
 ## 🛠️ Kurulum
 1. Sağ taraftaki **Releases** bölümünden (veya doğrudan [buraya tıklayarak](https://github.com/tingoja/CarplayScreenMirror/releases/latest)) güncel `CarplayScreenMirror.dll` (veya `.zip`) dosyasını indirin.
